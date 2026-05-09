@@ -4,10 +4,11 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "dev": "vite dev",
-    "build": "vite build",
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start",
     "build:dev": "vite build --mode development",
-    "preview": "vite preview",
+    "preview": "vinxi start",
     "lint": "eslint .",
     "format": "prettier --write ."
   },
