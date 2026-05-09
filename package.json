@@ -7,7 +7,7 @@
     "dev": "vinxi dev",
     "build": "vinxi build",
     "start": "vinxi start",
-    "build:dev": "vite build --mode development",
+    "build:dev": "vinxi build --mode development",
     "preview": "vinxi start",
     "lint": "eslint .",
     "format": "prettier --write ."
